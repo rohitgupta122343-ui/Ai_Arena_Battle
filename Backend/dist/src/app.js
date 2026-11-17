@@ -5,7 +5,7 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: "https://arenaai69.vercel.app",
+    origin: "https://arenaai99.vercel.app",
     credentials: true
 }));
 app.post('/invoke', async (req, res) => {
