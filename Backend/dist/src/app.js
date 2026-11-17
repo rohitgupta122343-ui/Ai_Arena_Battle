@@ -8,10 +8,6 @@ app.use(cors({
     origin: "https://arenaai69.vercel.app",
     credentials: true
 }));
-app.get('/', async (req, res) => {
-    const result = await graph("write a code factorial");
-    console.log(result);
-});
 app.post('/invoke', async (req, res) => {
     const { input } = req.body;
     const result = await graph(input);
