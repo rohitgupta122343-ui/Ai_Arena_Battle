@@ -213,7 +213,7 @@ export default function App() {
 
     setIsLoading(true)
     try {
-      const res = await axios.post('http://localhost:3000/invoke', {
+      const res = await axios.post('https://ai-arena-battle-1-10m5.onrender.com/invoke', {
         input: problem
       })
 
