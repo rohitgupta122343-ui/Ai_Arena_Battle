@@ -1,6 +1,5 @@
-import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
-import { ChatCohere } from "@langchain/cohere";
-export declare const geminiModel1: ChatGoogleGenerativeAI;
-export declare const geminiModel2: ChatGoogleGenerativeAI;
-export declare const cohereModel: ChatCohere<import("@langchain/cohere").ChatCohereCallOptions>;
+import { ChatGroq } from "@langchain/groq";
+export declare const geminiModel1: ChatGroq;
+export declare const geminiModel2: ChatGroq;
+export declare const cohereModel: ChatGroq;
 //# sourceMappingURL=model.ai.d.ts.map
